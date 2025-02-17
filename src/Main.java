@@ -14,7 +14,6 @@ public class Main {
          */
         
         //System.out.println(calculaSuma("10000000000000000000000000", 2000));
-
     }
 
     static String sumaUno(String num){
@@ -43,7 +42,7 @@ public class Main {
             }
             
             if (posicion == 0 && digito == 9) {
-                suma = 10+suma;
+                suma = 1+suma;
             }
             posicion--;
         }
